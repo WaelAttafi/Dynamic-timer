@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.maintimer{
+  margin: 80px auto;
+  width: 250px;
+    height: 305px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: black solid 1.5px;
+    border-radius: 5px;
+}
+.timedisplay{
+  font-size: 40px;
+    width: 200px;
+}
+.display{
+  height:100px;
+  width: 200px;
+}
+.idtime{
+  font-size: 18px;
+  width: 200px;
+  padding-bottom: 35px;
+}
+.buttons{
+  height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn{
+  width: 68px;
+    height: 36px;
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 3px;
+    color: blue;
+    font-size: 18px;
+}
